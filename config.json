@@ -1,0 +1,75 @@
+{
+    "primary_test_device_model" : "Mercury",
+    "appium_starting_port" : 5000,
+    "apk_download_path" : "C:\\Teams_APK",
+    "common_log_share" :"C:\\Sakurai_Logs",
+    "mail_to_users" :"v-hasimo@microsoft.com",
+    "sendgrid_api_key" :"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",
+    "users" : {
+        "Ellie" : {
+            "username" : "plcm35@3pip.onmicrosoft.com",
+            "password" : "MSBlore@20",
+            "displayname" : "plcm 35",
+            "phonenumber" : "14083356971",
+            "pstndisplay" : "+1 408-335-6971"
+        },
+        "Leo" : {
+            "username" : "plcm37@3pip.onmicrosoft.com",
+            "password" : "MSBlore@20",
+            "displayname" : "plcm 37",
+            "phonenumber" : "14084712361",
+            "pstndisplay": "+1 408-471-2361"
+        },
+        "Elizabeth" : {
+            "username" : "plcm38@3pip.onmicrosoft.com",
+            "password" : "MSBlore@20",
+            "displayname" : "plcm 38",
+            "phonenumber" : "14084712813",
+            "pstndisplay": "+1 408-471-2813"
+        },
+        "Peter" : {
+            "username" : "partnerteams1@sbspartnerengtest.onmicrosoft.com",
+            "password" : "MSBlore@20",
+            "displayname" : "Partnerteams1",
+            "phonenumber" : "18185736427",
+            "pstndisplay" : "+1 818-573-6427"
+        }
+
+    },
+    "devices" :  {
+        "IPPhone1" : {
+            "serial" : "10.50.10.107",
+            "ip_address" : "10.50.10.107",
+            "brand" : "Crestron",
+            "model" : "Mercury",
+            "firmware" : "1.0"
+        },
+        "IPPhone2" : {
+            "serial" : "10.50.10.129",
+            "ip_address" : "10.50.10.129",
+            "brand" : "Yealink",
+            "model" : "T56",
+            "firmware" : "1.0"
+        },
+        "IPPhone3" : {
+            "serial" : "10.50.10.112",
+            "ip_address" : "10.50.10.112",
+            "brand" : "Yealink",
+            "model" : "T56",
+            "firmware" : "1.0"
+        },
+        "IPPhone4" : {
+            "serial" : "10.50.10.157",
+            "ip_address" : "10.50.10.157",
+            "brand" : "Yealink",
+            "model" : "T56",
+            "firmware" : "1.0"
+        }
+    },
+    "teams_webhooks":{
+        "schedule_webhook" : "https://outlook.office.com/webhook/c53ec466-24d6-4ae9-9d39-f972d68a7f00@72f988bf-86f1-41af-91ab-2d7cd011db47/IncomingWebhook/806cdaf030bc41a4ac385354cada04bf/60eb089a-f622-45e7-bd36-890eb27f1a1f",
+        "success_webhook" : "https://outlook.office.com/webhook/c53ec466-24d6-4ae9-9d39-f972d68a7f00@72f988bf-86f1-41af-91ab-2d7cd011db47/IncomingWebhook/08c9ef76a1264f558f5714a6476f9160/60eb089a-f622-45e7-bd36-890eb27f1a1f",
+        "failure_webhook" : "https://outlook.office.com/webhook/c53ec466-24d6-4ae9-9d39-f972d68a7f00@72f988bf-86f1-41af-91ab-2d7cd011db47/IncomingWebhook/85e2867b300a435bb88eccd550293e73/60eb089a-f622-45e7-bd36-890eb27f1a1f",
+        "info_webhook" :  "https://outlook.office.com/webhook/c53ec466-24d6-4ae9-9d39-f972d68a7f00@72f988bf-86f1-41af-91ab-2d7cd011db47/IncomingWebhook/a1faa30af07542c0b44a58f1ba101be6/60eb089a-f622-45e7-bd36-890eb27f1a1f"
+    }
+}
